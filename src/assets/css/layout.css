@@ -1,0 +1,180 @@
+body{
+    font-size:1.4rem;
+  }
+  header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e3e3e3;
+    z-index: 99;
+    background-color: #fff;
+    padding: 15px 20px;
+  }
+  header h1 .logo{
+    font-size: 0;
+    color: transparent;
+    display: block;
+    width: 203px;
+    height: 30px;
+    background: url(../img/top-logo.png) no-repeat top left / contain;
+  }
+  
+  .header-menu{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  .header-menu a{
+    font-size: 1.2rem;
+    line-height: 30px;
+    display: block;
+    padding-left: 35px;
+    margin-right: 20px;
+    position: relative;
+  }
+  .ico-menu a:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/top-icon-set2x.png);
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+  }
+  
+  .ico-menu a.btn-login:before{
+    background-position: 0 -30px;
+  }
+  .ico-menu a.btn-logout:before{
+    background-position: 0 -60px;
+  }
+  .ico-menu a.btn-config:before{
+    background-position: 0 0;
+  }
+  
+  nav{
+    position: fixed;
+    top: 0; left: 0;
+    width: 80px;
+    height: 100%;
+    border-right: 1px solid #e3e3e3;
+    padding-top: 80px;
+    z-index: 98;
+    background-color: #fff;
+  }
+  
+  .tab-menu a{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .tab-menu a:before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/tab-icon-set2x.png);
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    position: absolute;
+    top: 0; left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .tab-menu a.router-link-exact-active{
+    color: #d03238;
+  }
+  .tab-menu a.router-link-exact-active:before{
+    background-color: #d03238;
+  }
+  .tab-menu a.tab-allmenu:before{
+    background-position: 0 0;
+  }
+  .tab-menu a.tab-home:before{
+    background-position: 0 -40px;
+  }
+  .tab-menu a.tab-task:before{
+    background-position: 0 -80px;
+  }
+  .tab-menu a.tab-info:before{
+    background-position: 0 -120px;
+  }
+  .tab-menu a.tab-meet:before{
+    background-position: 0 -160px;
+  }
+  .tab-menu a.tab-contact:before{
+    background-position: 0 -200px;
+  }
+  
+  .tab-menu a.tab-allmenu.router-link-exact-active:before{
+    background-position: -40px 0;
+  }
+  .tab-menu a.tab-home.router-link-exact-active:before{
+    background-position: -40px -40px;
+  }
+  .tab-menu a.tab-task.router-link-exact-active:before{
+    background-position: -40px -80px;
+  }
+  .tab-menu a.tab-info.router-link-exact-active:before{
+    background-position: -40px -120px;
+  }
+  .tab-menu a.tab-meet.router-link-exact-active:before{
+    background-position: -40px -160px;
+  }
+  .tab-menu a.tab-contact.router-link-exact-active:before{
+    background-position: -40px -200px;
+  }
+  
+  
+  #container{
+    padding: 60px 0 0 80px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  #container > div{
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  #container > div#poc-main01{
+    display: block;
+    /* background:url(../img/tmp/poc-main01.png) no-repeat top left / contain; */
+    
+  }
+  
+  .ico-btn{
+    font-size: 0;
+    color: transparent;
+  }
+  .ico-btn:before{
+    content: "";
+    display: block;
+    /* background-image: url(../img/ico_all.png); */
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modal-all-close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .modal-all-close:before{
+    background-position: 0 0;
+  }
